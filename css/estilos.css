@@ -388,6 +388,8 @@ margin: 0px 0 5px 0;
 		.links{
 			//width: 50%;
 			text-align: center;	
+
+			display: none;
 		}
 		.links a{
 			margin:0 0; 
@@ -436,6 +438,7 @@ margin: 0px 0 5px 0;
 	
 		.links{
 			width: 47%;
+			display: unset
 		}
 		
 		.links a{

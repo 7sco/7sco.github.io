@@ -437,6 +437,15 @@ margin: 0px 0 5px 0;
 			text-align: center;
 			
 		}
+		 .about-text p{
+			width: 100%;
+			text-align: center;
+			padding: 0;
+			margin: 0;
+			font-size: 1em;
+			line-height: 40px;
+
+		}
 
 
 

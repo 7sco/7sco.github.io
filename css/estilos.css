@@ -230,7 +230,7 @@ font-size: 3.5em;
 }
 
 
- .about-text p{
+/* .about-text p{
 	width: 100%;
 	text-align: center;
 	padding: 0 50px;
@@ -238,14 +238,14 @@ font-size: 3.5em;
 	font-size: 1.2em;
 	line-height: 40px;
 
-}
+}*/
 
 /*TRABAJOS*/
 
 .title{
 	width: 80%;
 	padding: 0;
-	margin-top: 50px;
+	margin-top: 20px;
 	margin-bottom: 30px;
 }
 .title .line{
@@ -404,6 +404,16 @@ margin: 0px 0 5px 0;
 			
 		}
 
+		 .about-text p{
+			width: 100%;
+			text-align: center;
+			padding: 0;
+			margin: 0;
+			font-size: 1em;
+			line-height: 40px;
+
+		}
+
 
 		.trabajo{
 			text-align: center;
@@ -452,9 +462,7 @@ margin: 0px 0 5px 0;
 		.right img{
 			margin: 10px auto;
 			width: 70%;
-			height: 280px;
-
-			
+			height: 280px;			
 		}
 
 		.thumb{
@@ -463,13 +471,18 @@ margin: 0px 0 5px 0;
 		}
 
 
-	.left{
+		.left{
 	
-	margin: -50px 0px 0 0;
-	
-	
-}
-
+			margin: -50px 0px 0 0;
+		}
+		 .about-text p{
+			width: 100%;
+			text-align: center;
+			padding: 0 50px;
+			margin: 50px 0;
+			font-size: 1.2em;
+			line-height: 40px;
+		}
 		
 
 

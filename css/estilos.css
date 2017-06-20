@@ -77,12 +77,14 @@ body{
 	border-radius: 10px;
 	text-align: center;
 	margin-right: 20px;
-	width: 40%;
+	//width: 40%;
+	width:10%;
 	display: inline-block;
 }
 
 .hello p{
-	font-size: 2.5em;
+	//font-size: 2.5em;
+	font-size: 1em;
 }
 
 .botones div{
@@ -92,6 +94,7 @@ body{
 .name{
 	font-size: 1.5em;
 	text-align: center;
+	display: none;
 }
 
 .name .name1{
@@ -120,6 +123,7 @@ body{
 	margin:0 0 30px 0px;
 	padding: 0;
 	display: inline-block;
+	display: none;
 }
 
 .right img{
@@ -127,6 +131,7 @@ body{
 	display: block;
 	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	
 }
 
 .right .button{
@@ -332,6 +337,7 @@ body{
 .icons .back li{
 	padding-top: 45px;
 }
+
 
 
 /*==================================================

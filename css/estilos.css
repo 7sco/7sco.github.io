@@ -73,7 +73,7 @@ body{
 .botones .hello{
 	background: #2856b6;
 	
-	padding: 0px 0;
+	padding: 0px 10px;
 	border-radius: 10px;
 	text-align: center;
 	margin-right: 20px;

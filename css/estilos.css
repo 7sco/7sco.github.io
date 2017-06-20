@@ -312,16 +312,7 @@ body{
 
 }
 
-.icons .box{
-	background: #fff;
-	width: 60%;
-	margin: 40px auto;
-	text-align: center;
-	text-decoration: none;
-	 list-style-type:none;
-	 border-radius: 10px;
-	 height: 350px;
-}
+
 
 .icons .box h4{
 	background: #2856b6;
@@ -403,6 +394,17 @@ body{
 	.trabajo{
 		text-align: center;
 	}
+
+	.icons .box{
+	
+	width: 100%;
+	margin: 20px 0;
+	background: #fff;
+	text-align: center;
+	list-style-type:none;
+	border-radius: 10px;
+	height: 350px;
+	}
 }
 
 /* Small Devices, Tablets */
@@ -429,8 +431,10 @@ body{
 		margin: 0;
 		font-size: 1em;
 		line-height: 40px;
-
 	}
+
+
+
 }
 
 /* Medium Devices, Desktops */
@@ -472,6 +476,17 @@ body{
 		margin: 50px 0;
 		font-size: 1.2em;
 		line-height: 40px;
+	}
+
+	.icons .box{
+		background: #fff;
+		width: 60%;
+		margin: 40px auto;
+		text-align: center;
+		text-decoration: none;
+		list-style-type:none;
+		border-radius: 10px;
+		height: 350px;
 	}
 }
 

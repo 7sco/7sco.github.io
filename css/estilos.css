@@ -5,6 +5,7 @@
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 }
+
 body{
 	background: #263238;
 	font-family: 'Roboto', Sans-serif;
@@ -51,9 +52,6 @@ body{
 }
 .links{
 	padding: 10px 20px 10px 0;
-	//width: 60%;
-	//text-align: right;
-	//padding: 10px 20px;
 	margin:0 0px 20px 0px;	
 	border-bottom: 1px solid #fff;
 	float: right;
@@ -63,15 +61,11 @@ body{
 	text-decoration: none;
 	background: #2856b6;
 	border-radius: 10px;
-	//padding:10px 0; 
 }
-
-
 
 
 .left .botones{
 	padding: 0;
-
 	text-align: center;
 }
 
@@ -80,30 +74,23 @@ body{
 	
 	padding: 0px 0;
 	border-radius: 10px;
-	//display: inline-block;
 	text-align: center;
-	
 	margin-right: 20px;
-	
 	width: 40%;
-	
 	display: inline-block;
-
 }
+
 .hello p{
 	font-size: 2.5em;
 }
 
 .botones div{
-	
 	padding: 0;
 }
 
 .name{
 	font-size: 1.5em;
 	text-align: center;
-
-
 }
 
 .name .name1{
@@ -116,7 +103,6 @@ body{
 	font-weight: 600;
 }
 
-
 .name .dev{
 	font-size: 1.5em;
 	margin-top: 50px;
@@ -126,36 +112,25 @@ body{
 /*RIGHT-BOX*/
 
 .right{
-
-	//max-width: 40%;
 	display: flex;
 	flex-direction: column;
 	text-align: center;
 	overflow: hidden;
-	//box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	margin:0 0 30px 0px;
 	padding: 0;
 	display: inline-block;
 }
 
-
-
 .right img{
 	margin: 10px auto;
 	display: block;
-	//width:100%;
-	//height: 280px;
 	border-radius: 5px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-
-
 .right .button{
 	margin:30px 0 ;
-	display: inline-block;
-
-	
+	display: inline-block;	
 }
 
 .button a{
@@ -166,7 +141,6 @@ body{
 	border-radius: 10px;
 	font-size: 1.5em;
 	opacity: 0.3;
-
 }
 
 .button a:hover{
@@ -183,12 +157,10 @@ body{
 
 
 .social{
-text-align: center;
-background: #2856b6;
-color: #fff;
-font-size: 3.5em;
-
-
+	text-align: center;
+	background: #2856b6;
+	color: #fff;
+	font-size: 3.5em;
 }
 .socialRed{
 	padding: 20px 0px;
@@ -209,17 +181,15 @@ font-size: 3.5em;
 /*ABOUT*/
 
 .text{
-	
 	color: #fff;
 	margin:0 auto;
 	margin-top: 70px;
 	width: 80%;
-
 }
+
 .about-text{
-	
 	padding: 0
-	margin:50px auto;
+	margin: 50px auto;
 }
 
 
@@ -228,17 +198,6 @@ font-size: 3.5em;
 	border-bottom: 1px solid #edba52;
 	padding-bottom: 10px;
 }
-
-
-/* .about-text p{
-	width: 100%;
-	text-align: center;
-	padding: 0 50px;
-	margin: 50px 0;
-	font-size: 1.2em;
-	line-height: 40px;
-
-}*/
 
 /*TRABAJOS*/
 
@@ -263,10 +222,8 @@ font-size: 3.5em;
 /*WORK*/
 
 .trabajos{
-	
 	color: #fff;
 	padding: 0; 
-	
 }
 
 
@@ -274,35 +231,24 @@ font-size: 3.5em;
 
 .container-trabajo1{
 	overflow: hidden;
-	
 }
 
 
 .trabajo{
-	//width: 25%;
 	overflow: hidden;
-	
-	
 	height: 325px;
 	margin-bottom: 10px;
 }
 
 .thumb{
-
 	color: #000;
 	background: #fff;
-	//opacity: 0.8;
-	
-
 	background-size: cover;
-	
-	
 	height: 300px;
-	overflow: hidden;
+	//overflow: hidden;
 	border-radius: 10px 10px 0 0;
-
-
 }
+
 
 .thumb img{
 	background-size: cover;
@@ -310,40 +256,49 @@ font-size: 3.5em;
 	height: 200px;
 	margin: 0 auto;
 	display: inherit;
-	margin-top: 10px;
+	margin-top: -50px;
 	border-radius:10px 10px 0 0; 
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
 
+
+.thumb img:hover{
+	width: 100%;
+	 height: 270px;
+    margin-top: -115px;
+    transition-duration: 1s;
+	
 }
 
 .descripcion{
 	background: #2856b6;
-	padding: 40px;
-    margin-top: -20px;
+	padding: 25px 30px;
+    //margin-top: -20px;
     height: 140px;
     color: #fff;
 }
 
 .descripcion p{
-margin: 0px 0 5px 0;
+	margin: 0px 0 5px 0;
+	text-align: left;
 }
+
+.descripcion .nombre{
+	font-size: 1.4em;
+}
+.descripcion .categoria{
+	font-size: 1em;
+	color: #edba52;
+}
+
 .container-trabajo2{
 	overflow: hidden;
-
-
 }
 
-
-
-
 .redes-sociales{
-
 	background: #2856b6;
-
 	text-align: center;
-	padding: 15px 0;
-
-	
+	padding: 15px 0;	
 }
 
 .redes-sociales a{
@@ -352,154 +307,177 @@ margin: 0px 0 5px 0;
 	margin:20px;
 }
 
+.icons{
+	//color: #fff;
+
+}
+
+.icons .box{
+	background: #fff;
+	width: 60%;
+	margin: 40px auto;
+	text-align: center;
+	text-decoration: none;
+	 list-style-type:none;
+	 border-radius: 10px;
+	 height: 350px;
+}
+
+.icons .box h4{
+	background: #2856b6;
+	color:#edba52; 
+	padding: 10px 0;
+	border-radius: 10px 10px 0 0;
+	font-size: 2em;
+	font-weight: 500;
+}
+
+.icons .box li{
+	font-size: 2em;
+	padding-top: 15px;
+}
+
+.icons .back li{
+	padding-top: 45px;
+}
+
 
 /*==================================================
 =            Bootstrap 3 Media Queries             =
 ==================================================*/
 
-    /*==========  Mobile First Method  ==========*/
+/*==========  Mobile First Method  ==========*/
 
+/* Extra Small Devices, Phones */ 
 
-
-    /* Extra Small Devices, Phones */ 
-    @media only screen and (min-width : 300px) {
+@media only screen and (min-width : 300px) {
 		
-		.about{
-			width: 90%;
+	.about{
+		width: 90%;
+	}
 
-		}
-		.left{
-			margin-top: 0;
-		}
+	.left{
+		margin-top: 0;
+	}
 
-		.left .botones .hello{
-			background: #2856b6;
-			padding: 0px 0;
-			border-radius: 10px;
-			//display: inline-block;
-			text-align: center;
-			font-size: 1.5em;
-			margin-right: 20px;
-			width: 100%;
-			margin-bottom: 60px;
-			display: inline-block;
-		}
+	.left .botones .hello{
+		background: #2856b6;
+		padding: 0px 0;
+		border-radius: 10px;
+		text-align: center;
+		font-size: 1.5em;
+		margin-right: 20px;
+		width: 100%;
+		margin-bottom: 60px;
+		display: inline-block;
+	}
 
-		.links{
-			//width: 50%;
-			text-align: center;	
+	.links{
+		text-align: center;	
+		display: none;
+	}
 
-			display: none;
-		}
-		.links a{
-			margin:0 0; 
-			padding: 10px 10px 10px 10px;
-			font-size: 1.5em;
-		}
+	.links a{
+		margin:0 0; 
+		padding: 10px 10px 10px 10px;
+		font-size: 1.5em;
+	}
 
-		.right img{
-			margin: 10px 0;
-			width: 95%;
-			height: 400px;
+	.right img{
+		margin: 10px 0;
+		width: 95%;
+		height: 400px;
+		
+	}
+
+	.about-text p{
+		width: 100%;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+		font-size: 1em;
+		line-height: 40px;
+
+	}
+
+	.trabajo{
+		text-align: center;
+	}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+	.links{
+		text-align:center;
+	}
+
+	.right img{
+		margin: 10px auto;
 			
-		}
-
-		 .about-text p{
-			width: 100%;
-			text-align: center;
-			padding: 0;
-			margin: 0;
-			font-size: 1em;
-			line-height: 40px;
-
-		}
-
-
-		.trabajo{
-			text-align: center;
-			
-		}
-
+	}
 	
-
-    }
-
-    /* Small Devices, Tablets */
-    @media only screen and (min-width : 768px) {
-		.links{
-			text-align:center;
-		}
-		.right img{
-			margin: 10px auto;
-			
-		}
 	.trabajo{
 			text-align: center;
 			
-		}
-		 .about-text p{
-			width: 100%;
-			text-align: center;
-			padding: 0;
-			margin: 0;
-			font-size: 1em;
-			line-height: 40px;
-
-		}
-
-
-
-
-    }
-
-    /* Medium Devices, Desktops */
-    @media only screen and (min-width : 992px) {
+	}
 	
-		.links{
-			width: 47%;
-			display: unset
-		}
-		
-		.links a{
-			text-align: center;	
+	.about-text p{
+		width: 100%;
+		text-align: center;
+		padding: 0;
+		margin: 0;
+		font-size: 1em;
+		line-height: 40px;
 
-			margin:0 0; 
-			padding: 10px 20px 10px 20px;
-			font-size: 1.5em;
-		}
+	}
+}
 
-		.right img{
-			margin: 10px auto;
-			width: 70%;
-			height: 280px;			
-		}
-
-		.thumb{
-			text-align: center;
-			 
-		}
-
-
-		.left{
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
 	
-			margin: -50px 0px 0 0;
-		}
-		 .about-text p{
-			width: 100%;
-			text-align: center;
-			padding: 0 50px;
-			margin: 50px 0;
-			font-size: 1.2em;
-			line-height: 40px;
-		}
-		
+	.links{
+		width: 47%;
+		display: unset
+	}
+	
+	.links a{
+		text-align: center;	
+
+		margin:0 0; 
+		padding: 10px 20px 10px 20px;
+		font-size: 1.5em;
+	}
+
+	.right img{
+		margin: 10px auto;
+		width: 70%;
+		height: 280px;			
+	}
+
+	.thumb{
+		text-align: center;
+			
+	}
 
 
-		
-    }
+	.left{
 
-    /* Large Devices, Wide Screens */
-    @media only screen and (min-width : 1200px) {
+		margin: -50px 0px 0 0;
+	}
+		.about-text p{
+		width: 100%;
+		text-align: center;
+		padding: 0 50px;
+		margin: 50px 0;
+		font-size: 1.2em;
+		line-height: 40px;
+	}
+}
 
-    }
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
 

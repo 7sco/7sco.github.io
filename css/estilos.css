@@ -196,6 +196,9 @@ body{
 	margin-top: 70px;
 	width: 80%;
 }
+.texto span{
+	font-size: 4em;
+}
 
 .about-text{
 	padding: 0

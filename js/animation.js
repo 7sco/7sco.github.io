@@ -9,7 +9,7 @@
                 //we add the letter to the container
                 $('#container').html($('#container').html() + letter);
             
-            }, 100*i);
+            }, 150*i);
         });
 
 

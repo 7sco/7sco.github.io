@@ -21,9 +21,10 @@ body{
 	height: 700px;
   	display: block;  	 
   	box-shadow: inset 0 -50px 50px #263238;
+  	background-attachment: fixed;
 }
 
-/*ABOUT-BOX*/
+/*========== MAIN-SECTION =========*/
 
 .about{
 	
@@ -64,6 +65,7 @@ body{
 	border-radius: 10px;
 }
 
+/*LEFT-BOX*/
 
 .left .botones{
 	padding: 0;
@@ -79,11 +81,16 @@ body{
 	margin-right: 20px;
 	width: 40%;
 	display: inline-block;
+
 }
 
 .hello p{
-	font-size: 2.5em;
+	font-size: 2em;
+	margin-bottom: 0;
 }
+
+
+
 
 .botones div{
 	padding: 0;
@@ -97,7 +104,7 @@ body{
 
 .name .name1{
 	font-size: 1.8em;
-	margin-bottom: 50px;
+	margin-bottom: 40px;
 }
 
 .isco{
@@ -107,7 +114,7 @@ body{
 
 .name .dev{
 	font-size: 1.5em;
-	margin-top: 50px;
+	margin-top: 40px;
 }
 
 
@@ -181,7 +188,7 @@ body{
 
 
 
-/*ABOUT*/
+/* ========== ABOUT-SECTION ========= */
 
 .text{
 	color: #fff;
@@ -202,7 +209,7 @@ body{
 	padding-bottom: 10px;
 }
 
-/*TRABAJOS*/
+/*========== WORK-SECTION =========*/
 
 .title{
 	width: 80%;
@@ -222,15 +229,22 @@ body{
 
 }
 
-/*WORK*/
+.git-link{
+	color: #fff;
+}
+
+
+.git-link:hover{
+	color: #edba52;
+	text-decoration: none;
+}
+
+/*PROJECTS*/
 
 .trabajos{
 	color: #fff;
 	padding: 0; 
 }
-
-
-
 
 .container-trabajo1{
 	overflow: hidden;
@@ -248,7 +262,6 @@ body{
 	background: #fff;
 	background-size: cover;
 	height: 300px;
-	//overflow: hidden;
 	border-radius: 10px 10px 0 0;
 }
 
@@ -276,7 +289,6 @@ body{
 .descripcion{
 	background: #2856b6;
 	padding: 25px 30px;
-    //margin-top: -20px;
     height: 140px;
     color: #fff;
 }
@@ -298,24 +310,7 @@ body{
 	overflow: hidden;
 }
 
-.redes-sociales{
-	background: #2856b6;
-	text-align: center;
-	padding: 15px 0;	
-}
-
-.redes-sociales a{
-	color: #edba52;
-	font-size: 2.5em;
-	margin:20px;
-}
-
-.icons{
-	//color: #fff;
-
-}
-
-
+/*========== TECHNOLOGIES (BACK-FRONT-END) ========= */
 
 .icons .box h4{
 	background: #2856b6;
@@ -336,6 +331,22 @@ body{
 }
 
 
+/* ========== FOOTER-SECTION ========= */
+
+.redes-sociales{
+	background: #2856b6;
+	text-align: center;
+	padding: 15px 0;	
+}
+
+.redes-sociales a{
+	color: #edba52;
+	font-size: 2.5em;
+	margin:20px;
+}
+
+
+
 
 /*==================================================
 =            Bootstrap 3 Media Queries             =
@@ -347,6 +358,8 @@ body{
 
 @media only screen and (min-width : 300px) {
 		
+	/*MAIN-SECTION*/
+
 	.right{
 
 		width: 100%;
@@ -368,7 +381,7 @@ body{
 		font-size: 1.5em;
 		margin-right: 20px;
 		width: 100%;
-		margin-bottom: 60px;
+		margin-bottom: 30px;
 		display: inline-block;
 	}
 
@@ -390,6 +403,9 @@ body{
 		border-radius:200px; 
 	}
 
+
+	/*ABOUT-SECTION*/
+
 	.about-text p{
 		width: 100%;
 		text-align: center;
@@ -400,10 +416,14 @@ body{
 
 	}
 
+	/*WORK-SECTION*/
+
 	.trabajo{
 		text-align: center;
 	}
 
+
+	/*TECHNOLOGIES-SECTION*/
 	.icons .box{
 	
 	width: 100%;
@@ -416,20 +436,26 @@ body{
 	}
 }
 
+
+
+
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
+
+	/*MAIN-SECTION*/
+
+	.right img{
+		margin: 10px auto;
+		width: 400px;
+		height: 400px;
+		border-radius: 200px;			
+	}
 
 	.links{
 		text-align:center;
 	}
-
-
 	
-	.trabajo{
-			text-align: center;
-			
-	}
-	
+	/*ABOUT-SECTION*/
 	.about-text p{
 		width: 100%;
 		text-align: center;
@@ -439,22 +465,36 @@ body{
 		line-height: 40px;
 	}
 
-	.right img{
-		margin: 10px auto;
-		width: 400px;
-		height: 400px;
-		border-radius: 200px;			
+	/*WORK-SECTION*/
+	.trabajo{
+			text-align: center;
+			
 	}
-	
-
-
 }
+
+
+
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
+	
+	/*MAIN-SECTION*/
 	.right{
 		width: 50%;
 	}
+
+	.right img{
+		margin: 10px auto;
+		width:250px;
+		height: 250px;
+		border-radius: 100%;			
+	}
+
+	.left{
+
+		margin: -50px 0px 0 0;
+	}
+
 	.links{
 		width: 47%;
 		display: unset
@@ -468,24 +508,8 @@ body{
 		font-size: 1.5em;
 	}
 
-	.right img{
-		margin: 10px auto;
-		width:250px;
-		height: 250px;
-		border-radius: 100%;			
-	}
-
-	.thumb{
-		text-align: center;
-			
-	}
-
-
-	.left{
-
-		margin: -50px 0px 0 0;
-	}
-		.about-text p{
+	/*ABOUT-SECTION*/
+	.about-text p{
 		width: 100%;
 		text-align: center;
 		padding: 0 50px;
@@ -494,6 +518,13 @@ body{
 		line-height: 40px;
 	}
 
+	/*WORK-SECTION*/
+	.thumb{
+		text-align: center;
+			
+	}
+
+	/*FOOTER-SECTION*/
 	.icons .box{
 		background: #fff;
 		width: 60%;

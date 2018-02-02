@@ -347,6 +347,11 @@ body{
 	font-size: 2.5em;
 	margin:20px;
 }
+/*BOTTOM SECTION*/
+
+.redes-sociales p{
+		color: #fff;
+	}
 
 
 
@@ -437,6 +442,8 @@ body{
 	border-radius: 10px;
 	height: 350px;
 	}
+
+
 }
 
 

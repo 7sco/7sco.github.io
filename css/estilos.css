@@ -270,8 +270,8 @@ body{
 
 
 .thumb img{
-	background-size: cover;
-	width:90%;
+	background-size: auto;
+	width:70%;
 	height: 200px;
 	margin: 0 auto;
 	display: inherit;
@@ -326,11 +326,11 @@ body{
 
 .icons .box li{
 	font-size: 2em;
-	padding-top: 15px;
+	padding-top: 10px;
 }
 
 .icons .back li{
-	padding-top: 45px;
+	padding-top: 25px;
 }
 
 
